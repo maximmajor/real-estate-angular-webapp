@@ -13,6 +13,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ServiceComponent } from './pages/service/service.component';
 import { ProjectComponent } from './pages/project/project.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { TeamsComponent } from './layouts/teams/teams.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     AboutComponent,
     ServiceComponent,
     ProjectComponent,
-    ContactComponent
+    ContactComponent,
+    TeamsComponent
   ],
   imports: [
     BrowserModule,

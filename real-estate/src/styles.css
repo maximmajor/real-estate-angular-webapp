@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --primary-color: #010422;
+    --secondary-color: #F0F0F6;
+    --heading-text-color: #D4D0FB;
+}
+
+.background-primary{
+    background-color: var(--primary-color);
+}
+
+
+
+.heading-text-color{
+    color: var( --secondary-color);
+}
+
+.text-content-color{
+   color: var( --heading-text-color);
+}
+
+.button-background{
+    background-color: var(  --heading-text-color);
+}
+
+.button-color{
+    background-color: #D3D4E3;
+    color: #1A1B23
+}
+
+.testimonials-background{
+    background-color: #2A2C57
+}
